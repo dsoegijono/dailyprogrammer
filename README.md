@@ -1,4 +1,7 @@
 My attempts at solving Reddit's [/r/dailyprogrammer](http://www.reddit.com/r/dailyprogrammer/) challenges.
 
-####Challenges done:
-- Challenge [#116b](https://github.com/dsoegijono/dailyprogrammer/tree/master/166b) [Easy] Planetary Gravity Calculator ([Reddit thread](http://www.reddit.com/r/dailyprogrammer/comments/284mep/6142014_challenge_166b_easy_planetary_gravity/))
+####Challenges Attempted
+
+| Challenge # | Level | Date posted | Date attempted | Title | GitHub link | Reddit thread |
+| :---------- | :---- | ----------: | -------------: | :---- | :---------: | :-----------: |
+| 166b | Easy | 6/14/14 | 6/14/14 | Planetary Gravity Calculator | [x](https://github.com/dsoegijono/dailyprogrammer/tree/master/166b_easy) | [x](http://www.reddit.com/r/dailyprogrammer/comments/284mep/6142014_challenge_166b_easy_planetary_gravity/) |
