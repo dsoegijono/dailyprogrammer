@@ -1,8 +1,8 @@
-def getAverage(set):
+def get_average(set):
     #TODO round up/down?
     return sum(set)/len(set)
 
-def getLetterGrade(grade):
+def get_letter_grade(grade):
     if grade < 60:
         return 'F'
     else:
@@ -36,14 +36,14 @@ def main():
             grades = sorted(grades)
             del l[-5:]
             fullname = ' '.join(l[::-1])
-            average = getAverage(grades)
+            average = get_average(grades)
             student = { 'name': fullname, 'average': average, 'grades': grades }
             gradebook.append(student)
         gradebook = sorted(gradebook, key=lambda x: x['average'], reverse=True)
         for student in gradebook:
             name = student['name'].ljust(20)
             avg = str(student['average']).rjust(3)
-            ltr = getLetterGrade(int(student['average'])).ljust(2)
+            ltr = get_letter_grade(int(student['average'])).ljust(2)
             grades = " ".join(str(x).rjust(3) for x in student['grades'])
             print name + " (" + avg + "%) (" + ltr + "): " + grades
     
