@@ -9,17 +9,17 @@ def force(m1, m2, r):
     return G * m1 * m2 / r**2
 
 def main():
-    filename = raw_input("Please enter input file name. Enter 'manual' to input manually.\n--> ")
+    filename = raw_input("Please enter input file name. Enter '-m' to input manually.\n> ")
     
     planets = []
     
-    if filename == "manual":
+    if filename == "-m":
         m1 = int(raw_input("Mass: "))
         n = int(raw_input("Number of planets: "))
         if n > 0:
             print "Enter planet(s) information:"
         for i in range(n):
-            planets.append(raw_input()) #TODO invalid input?
+            planets.append(raw_input())
         for p in planets:
             print p
     else:
