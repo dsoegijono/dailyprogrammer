@@ -26,7 +26,7 @@ public class GravityCalculator {
   }
   
   public static void main(String[] args) {
-    System.out.println("Please enter input file name. Enter 'manual' for manual input.");
+    System.out.println("Please enter input file name. Enter '-m' for manual input.");
     System.out.print("> ");
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     
@@ -34,7 +34,7 @@ public class GravityCalculator {
       String filename = br.readLine();
       int m1 = 0, n = 0;
       Planet[] planets;
-      if ("manual".equals(filename)) {
+      if ("-m".equals(filename)) {
         System.out.print("Mass: ");
         m1 = Integer.parseInt(br.readLine());
         System.out.print("Number of planets: ");
