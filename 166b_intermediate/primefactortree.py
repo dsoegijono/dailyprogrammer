@@ -28,8 +28,17 @@ def get_factors(n):
     
 def print_inverse_tree(primes, level):
     s = ""
-    for i in primes:
-        s += (" " * (level)) + str(i) + (" " * (level))
+    for i in range(len(primes)):
+        if i%2 == 0:
+            s += " " * (level*2)
+        else:
+            s += "x"
+            s += "-" * level
+        s += str(primes[i])
+        if i%2 == 0 and i < len(primes)-1:
+            s += "-" * level
+        else:
+            s += " " * level
     print s
     a = []
     if len(primes) > 1:
