@@ -20,10 +20,10 @@ def get_factors(n):
         x -= 1
     if n%x == 0:
         if x != 1 and x != n:
-            factors.append([x, getFactors(x)])
+            factors.append([x, get_factors(x)])
         y = n/x
         if y != 1 and y != n:
-            factors.append([y, getFactors(y)])
+            factors.append([y, get_factors(y)])
     return factors
     
 def print_inverse_tree(primes, level):
@@ -51,9 +51,26 @@ def print_inverse_tree(primes, level):
     if a:
         print_inverse_tree(a, level+1)
 
+def print_tree(factors):
+    #print "Factors = " + str(factors)
+    #print "Level = " + str(level)
+    if not factors:
+        return
+    for node in factors:
+        if not node:
+            return
+        else:
+            print node[0]
+            del node[0]
+            print_tree(node)
+        #print_tree(i)
+        #print node
+    #print factors[0]
+    #print_tree(factors[0])
+
 if __name__ == "__main__":
     n = int(input("> "))
     p = get_primes(n)
-    #print "Primes: " + str(p)
-    #print getFactors(n)
-    print_inverse_tree(p, 1)
+    #print_inverse_tree(p, 1)
+    print_tree(get_factors(n))
+    #print get_factors(n)
