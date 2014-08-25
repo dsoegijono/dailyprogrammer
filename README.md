@@ -9,6 +9,7 @@ My attempts at solving Reddit's [/r/dailyprogrammer](http://www.reddit.com/r/dai
 | 167 | Intermediate | [6/18/2014] Final Grades | [x](https://github.com/dsoegijono/dailyprogrammer/tree/master/167_inter) | [x](http://www.reddit.com/r/dailyprogrammer/comments/28gq9b/6182014_challenge_167_intermediate_final_grades/) | Yes |
 | 168 | Easy | [6/27/2014] String Index | [x](https://github.com/dsoegijono/dailyprogrammer/tree/master/168_easy) | [x](http://www.reddit.com/r/dailyprogrammer/comments/299hvt/6272014_challenge_168_easy_string_index/) | Yes |
 | 173 | Easy | [7/28/2014] Unit Calculator | [x](https://github.com/dsoegijono/dailyprogrammer/tree/master/173_easy) | [x](http://www.reddit.com/r/dailyprogrammer/comments/2bxntq/7282014_challenge_173_easy_unit_calculator/) | Yes |
+| 176 | Easy | [8/22/2014] Pivot Table | [x](https://github.com/dsoegijono/dailyprogrammer/tree/master/176_easy) | [x](http://www.reddit.com/r/dailyprogrammer/comments/2eajf7/8222014_challenge_176_easy_pivot_table/) | Yes |
 
 ####Notes
 All inputs are assumed valid.
