@@ -13,12 +13,13 @@ def parse_data(data):
   return arr
 
 def print_array(arr):
-  print "Tower\t" + "\t".join(_days)
-  for line in arr:
+  print ("Tower\t" + "\t".join(_days)).expandtabs(8)
+  print "-" * (8*8)
+  for line in sorted(arr):
     s = line + "\t"
     for day in _days:
       s += str(arr[line][day]) + "\t"
-    print s
+    print s.expandtabs(8)
 
 def main():
   file = open("windfarm.txt", "r")
