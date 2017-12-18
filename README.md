@@ -1,6 +1,6 @@
 My attempts at solving Reddit's [/r/dailyprogrammer](http://www.reddit.com/r/dailyprogrammer/) challenges.
 
-####Challenges Attempted
+### Challenges Attempted
 
 |  #  | Level | Title | GitHub link | Reddit thread | Done |
 | :-: | :---- | :---- | :---------: | :-----------: | :--: |
@@ -11,5 +11,5 @@ My attempts at solving Reddit's [/r/dailyprogrammer](http://www.reddit.com/r/dai
 | 173 | Easy | [7/28/2014] Unit Calculator | [x](https://github.com/dsoegijono/dailyprogrammer/tree/master/173_easy) | [x](http://www.reddit.com/r/dailyprogrammer/comments/2bxntq/7282014_challenge_173_easy_unit_calculator/) | Yes |
 | 176 | Easy | [8/22/2014] Pivot Table | [x](https://github.com/dsoegijono/dailyprogrammer/tree/master/176_easy) | [x](http://www.reddit.com/r/dailyprogrammer/comments/2eajf7/8222014_challenge_176_easy_pivot_table/) | Yes |
 
-####Notes
+### Notes
 All inputs are assumed valid.
